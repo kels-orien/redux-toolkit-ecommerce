@@ -221,7 +221,7 @@ const ProductDetail = (props) => {
         <Wrapper>
 
             <SecondaryWrapper>
-                <BreadcrumbsWrapper> Home > {data.category} > {data.title} </BreadcrumbsWrapper>
+                <BreadcrumbsWrapper> Home {'>'} {data.category} {'>'} {data.title} </BreadcrumbsWrapper>
                 <ItemWrapper>
                     <ImgWrapper>
                         <ImgSecondaryWrapper>
